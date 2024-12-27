@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon HTML error involving the use of innerHTML with an undefined variable.  The bug is subtle; it doesn't throw an error but silently fails to update the innerHTML.  The solution shows how to avoid this by first checking if the variable is defined.
